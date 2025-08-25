@@ -1,0 +1,26 @@
+/* Layout: push footer to the bottom without extra space */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-footer {
+  margin-top: auto;
+}
+
+/* Navbar brand layout */
+.navbar-brand {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
