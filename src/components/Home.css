@@ -47,6 +47,16 @@
 
 .hero-buttons {
   margin-top: 2rem;
+  
+}
+
+/* Remove underline on the hero section buttons' links */
+.hero-buttons a,
+.hero-buttons a:link,
+.hero-buttons a:visited,
+.hero-buttons a:hover,
+.hero-buttons a:active {
+  text-decoration: none;
 }
 
 /* Featured Section */
@@ -169,6 +179,11 @@
   
   .hero-subtitle {
     font-size: 1.1rem;
+  }
+  .hero-buttons {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
   }
   
   .section-title {
