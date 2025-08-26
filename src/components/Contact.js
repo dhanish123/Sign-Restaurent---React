@@ -23,7 +23,7 @@ const Contact = () => {
     {
       icon: '📍',
       title: 'Address',
-      content: '123 Gourmet Street, Foodie District, City, State 12345'
+      content: 'Sign Restaurant, Kottakkal Kerala, India'
     },
     {
       icon: '📞',
